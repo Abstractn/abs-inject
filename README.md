@@ -14,11 +14,14 @@ Simply use Github's raw url to obtain the direct file url.
 `https://raw.githubusercontent.com/{user}/{repository}/{branch|tag|commit}/{path}`
 
 Examples:
+
 from `main` branch: `https://raw.githubusercontent.com/Abstractn/abs-inject/main/abs-inject.js`
+
 from `1.0.0` tag: `https://raw.githubusercontent.com/Abstractn/abs-inject/1.0.0/abs-inject.js`
 
 ### Tampermonkey:
 Use the `@require` header:
+
 `// @require      https://raw.githubusercontent.com/Abstractn/abs-inject/main/abs-inject.js`
 
 Check the [official documentation](https://www.tampermonkey.net/documentation.php) for more info.
